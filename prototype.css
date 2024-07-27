@@ -907,7 +907,7 @@ maijaga eita */
 
 .carousel .list .item .introduce {
     opacity: 0;
-    max-width: 372px;
+    max-width: 373px;
     margin-left: -10%;
     max-height: 405px;
     margin-top: 90%;
@@ -1098,7 +1098,7 @@ maijaga eita */
     padding: 25px;
     width: 260px;
     height: 336px;
-    left: 0px;
+    left: 10px;
     top: 42%;
     transform: translateY(-50%);
     border-radius: 16px;
