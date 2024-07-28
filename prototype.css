@@ -1184,8 +1184,9 @@ maijaga eita */
     border-radius: 10px;
 }
 .projects .slide img{
-    width: 300px;
+    width: 290px;
     height: 335px;
+    border-radius: 10px;
 }
 /* Riviews */
 .reviewcard .slide img{
