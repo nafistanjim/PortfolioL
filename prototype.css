@@ -1068,11 +1068,11 @@ maijaga eita */
 ----------------------------------------------------------------------------------------------
 maijaga eita */
 .container{
-    left: 150px;
+    left: 170px;
     width: 290px;
     height: 400px;
     position: absolute;
-    transform: translate(-50%,36%);
+    transform: translate(-50%,50%);
 }
 .main h1{
     text-align: center;
