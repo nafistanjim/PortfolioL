@@ -377,6 +377,17 @@ header .logo {
     flex-direction: rows;
     justify-content: space-around;
 }
+.homecard img{
+    /* border-radius: 10px;
+    display: block;
+    margin: auto;
+    opacity: 0.5;
+    width: 100%; */
+    width: 800px;
+    height: 400px;
+    border-radius: 16px;
+    opacity: 0.25;
+}
 /* Projects */
 .projects img{
     /* border-radius: 10px;
@@ -1152,18 +1163,11 @@ maijaga eita */
     flex-direction: rows;
     justify-content: space-around;
 }
+ .homecard .slide img{
+    width: 260px;
+    height: 335px;
+}   
 /* Projects */
-.projects img{
-    /* border-radius: 10px;
-    display: block;
-    margin: auto;
-    opacity: 0.5;
-    width: 100%; */
-    width: 800px;
-    height: 400px;
-    border-radius: 16px;
-    opacity: 0.25;
-}
 .projects .user-text font{
     font-size: 30px;
 }
