@@ -1136,7 +1136,7 @@ maijaga eita */
 }
 .btn{
     display: inline;
-    height: 8px;
+    height: 9.5px;
     width: 12px;
     margin: 7px;
     border-radius: 15px;
@@ -1194,6 +1194,7 @@ maijaga eita */
     height: 80px;
     border-radius: 10px;
     float: right;
+    margin-top: 20px;
 }
 /*---------------------------------------------------------------Home, Projects & Review Section END---------------------------------------------------------------*/
 
