@@ -1145,7 +1145,7 @@ maijaga eita */
     z-index: 3;
     cursor: pointer;
     border: solid 3px #693EFF;
-    margin-bottom: 120px;
+    margin-bottom: 300px;
 }
 .btn:hover {
     background-color: #693EFF;
