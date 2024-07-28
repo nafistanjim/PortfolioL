@@ -1137,15 +1137,15 @@ maijaga eita */
 .btn{
     display: inline;
     height: 10px;
-    width: 10px;
-    margin: 5px;
+    width: 12px;
+    margin: 8px;
     border-radius: 15px;
     background: transparent;
     transition: 0.7s;
     z-index: 3;
     cursor: pointer;
     border: solid 3px #693EFF;
-    margin-bottom: 300px;
+    margin-bottom: 315px;
 }
 .btn:hover {
     background-color: #693EFF;
