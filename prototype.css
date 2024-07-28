@@ -1136,9 +1136,9 @@ maijaga eita */
 }
 .btn{
     display: inline;
-    height: 10px;
+    height: 8px;
     width: 12px;
-    margin: 8px;
+    margin: 7px;
     border-radius: 15px;
     background: transparent;
     transition: 0.7s;
