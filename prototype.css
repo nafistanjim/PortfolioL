@@ -1167,6 +1167,7 @@ maijaga eita */
     width: 260px;
     height: 335px;
 }   
+
 /* Projects */
 .projects .user-text font{
     font-size: 30px;
@@ -1183,8 +1184,15 @@ maijaga eita */
     border-radius: 10px;
 }
 .projects .slide img{
-    width: 260px;
+    width: 300px;
     height: 335px;
+}
+/* Riviews */
+.reviewcard .slide img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    float: right;
 }
 /*---------------------------------------------------------------Home, Projects & Review Section END---------------------------------------------------------------*/
 
