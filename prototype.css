@@ -335,13 +335,13 @@ header .logo {
 }
 .user-text p{
     font-size: 20px;
-    font-weight: 650;
+    font-weight: 400;
     line-height: 25px;
     opacity: 1;
 }
 .user-text h2{
     margin: 50px 5px;
-    color: #693EFF;
+    color: black;
 }
 .indicator{
     position: absolute;
@@ -1129,7 +1129,7 @@ maijaga eita */
     top: 42%;
     transform: translateY(-50%);
     border-radius: 16px;
-    color: black;
+    color: white;
     box-sizing: border-box;
     opacity: 1;
 }
@@ -1140,7 +1140,7 @@ maijaga eita */
 }
 .user-text h2{
     margin: 50px 5px;
-    color: #693EFF;
+    color: white;
 }
 .indicator{
     position: absolute;
@@ -1211,6 +1211,7 @@ maijaga eita */
     border-radius: 10px;
     float: right;
     margin-top: 50px;
+    opacity: 1;
 }
 .bgc img{
     width: 300px;
