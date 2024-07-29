@@ -334,7 +334,8 @@ header .logo {
     opacity: 1;
 }
 .user-text p{
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 650;
     line-height: 25px;
     opacity: 1;
 }
@@ -410,6 +411,21 @@ header .logo {
     font-weight: bolder;
     border: solid 2px #693EFF;
     border-radius: 10px;
+}
+/* Riviews */
+.reviewcard .slide .user-text img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    float: right;
+
+}
+.bgc img{
+    width: 800px;
+    height: 400px;
+    border-radius: 16px;
+    opacity: 0.25;
+    z-index: 0;
 }
 /*---------------------------------------------------------------Home, Projects & Review Section END---------------------------------------------------------------*/
 
@@ -1189,12 +1205,17 @@ maijaga eita */
     border-radius: 15px;
 }
 /* Riviews */
-.reviewcard .slide img{
+.reviewcard .slide .user-text img{
     width: 80px;
     height: 80px;
     border-radius: 10px;
     float: right;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+.bgc img{
+    width: 300px;
+    height: 335px;
+    border-radius: 15px;
 }
 /*---------------------------------------------------------------Home, Projects & Review Section END---------------------------------------------------------------*/
 
