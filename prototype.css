@@ -78,8 +78,7 @@ header .logo {
 
 .Nafis img {
     height: 70rem;
-    margin-top: -5%;
-    margin-left: 15%;
+    margin-top: -13%;
 }
 
 /* carousel */
@@ -852,9 +851,9 @@ header .logo {
 
     .Nafis img {
         position: absolute;
-        height: 650px;
-        top: -10px;
-        left: -30%;
+        height: 750px;
+        top: -5px;
+        left: -20%;
     }
 /* carousel */
 
