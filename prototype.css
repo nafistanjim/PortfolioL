@@ -815,11 +815,12 @@ header .logo {
     display: none;
 }
 .carousel .list .item .introduce .topic {
-    font-size: 160%;
+    font-size: 180%;
     font-weight: 500;
     width: 100%;
-    margin-left: 10%;
-    margin-top: 0%;
+    margin-left: -50%;
+    margin-top: -50%;
+    rotate: -90deg;
 }
 .carousel .list .item .introduce .des {
     display: none;
