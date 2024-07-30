@@ -985,7 +985,7 @@ header .logo {
 }
 .indicator{
     position: absolute;
-    left: 50%;
+    left: 40%;
     bottom: 50px;
     color: transparent;
     transform: translateX(-50%);
@@ -995,14 +995,14 @@ header .logo {
     display: inline;
     height: 7px;
     width: 8px;
-    margin: 3px;
+    margin: 0px;
     border-radius: 15px;
     background: transparent;
     transition: 0.7s;
     z-index: 3;
     cursor: pointer;
     border: solid 3px #693EFF;
-    margin-bottom: 300px;
+    margin-bottom: 325px;
 }
 .btn:hover {
     background-color: #693EFF;
