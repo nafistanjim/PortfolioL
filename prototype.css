@@ -993,9 +993,9 @@ header .logo {
 }
 .btn{
     display: inline;
-    height: 8px;
-    width: 10px;
-    margin: 6px;
+    height: 7px;
+    width: 8px;
+    margin: 4px;
     border-radius: 15px;
     background: transparent;
     transition: 0.7s;
