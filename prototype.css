@@ -819,7 +819,7 @@ header .logo {
     font-weight: 500;
     width: 100%;
     margin-left: -50%;
-    margin-top: -80%;
+    margin-top: -90%;
     rotate: -90deg;
 }
 .carousel .list .item .introduce .des {
@@ -986,7 +986,7 @@ header .logo {
 }
 .indicator{
     position: absolute;
-    left: 30%;
+    left: 25%;
     bottom: 50px;
     color: transparent;
     transform: translateX(-50%);
@@ -996,7 +996,7 @@ header .logo {
     display: inline;
     height: 7px;
     width: 7px;
-    margin: 6px;
+    margin: 7px;
     border-radius: 10px;
     background: transparent;
     transition: 0.7s;
