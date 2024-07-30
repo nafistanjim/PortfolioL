@@ -1178,47 +1178,7 @@ header .logo {
         /*-------------------------- need animations here --------------------------*/
 /*     }
 }
-/* detail  */
-.carousel .list .item .detail {
-    opacity: 1;
-    /* pointer-events: none; */
-}
 
-/* showDetail */
-.carousel.showDetail .list .item:nth-child(3),
-.carousel.showDetail .list .item:nth-child(4) {
-    left: 100%;
-    opacity: 0;
-    /* pointer-events: none; */
-}
-
-.carousel.showDetail .list .item:nth-child(2) {
-    width: 100%;
-}
-
-.carousel.showDetail .list .item:nth-child(2) .introduce {
-    opacity: 0;
-    /* pointer-events: none; */
-}
-
-
-/* All photos vartical */
-.carousel.showDetail .list .item:nth-child(2) h6 {
-    transform: rotate(180deg);
-    right: 25%;
-    top: 38%;
-    animation: 1s 2s ease-in-out 1 forwards;
-}
-.carousel.showDetail .list .item:nth-child(2) .detail {
-    opacity: 1;
-    width: 50%;
-    position: absolute;
-    right: 0;
-    top: 60%;
-    transform: translateY(-50%);
-    text-align: left;
-    /* pointer-events: auto; */
-}
 /*------------------------------------------------------------------------------------*/
 .arrows {
     position: absolute;
