@@ -1072,32 +1072,25 @@ header .logo {
      }
 }
 /*------------------------------------------------------------------------------------*/
+
 .arrows {
     position: absolute;
-    top: 85.8%;
+    top: 80.8%;
     max-width: 90%;
     justify-content: space-between;
     left: 50%;
     transform: translateX(-50%);
 }
-#prev,
-#next {
+#prev {
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    font-family: monospace;
-    border: 5px solid #55555586;
+    border-radius: 500%;
     font-size: large;
-    background-color: transparent;
-    font-weight: 700;
-    color: #555555a8;
-    margin-top: -45%;
+    background-color:#693EFF;
+    color: white;
+    margin-top: -50%;
+    display: flex;
+    justify-content: center;
 }
-#prev{
-    opacity: 1;
-}
-#next {
-    left: unset;
-    right: 10%;
-}
+
 }
