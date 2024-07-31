@@ -855,7 +855,7 @@ header .logo {
     font-size: smaller;
 }
 .carousel .list .item .detail .skill-specifications{
-    margin-top: -4.5%;
+    margin-top: 50%;
     margin-left: 25%;
 }
 .carousel .list .item .detail .skill-specifications .skilling img{
@@ -1091,7 +1091,7 @@ header .logo {
     background-color: transparent;
     font-weight: 700;
     color: #555555a8;
-    margin-top: -65%;
+    margin-top: -45%;
 }
 #prev{
     opacity: 1;
