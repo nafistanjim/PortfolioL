@@ -776,7 +776,7 @@ header .logo {
 -------------------------------------------------------------------------------maijaga eita */   
 .carousel .list .item h6 {
     transform: translateX(-38%);
-    margin-top: 120%;
+    margin-top: 100%;
     transition: right 1.5s;
     font-size: 300%;
     position: relative;
@@ -804,7 +804,7 @@ header .logo {
     max-width: 373px;
     margin-left: -10%;
     max-height: 405px;
-    margin-top: 90%;
+    margin-top: 70%;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(800px);
     border-radius: 20px;
