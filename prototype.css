@@ -1081,6 +1081,10 @@ header .logo {
     left: 50%;
     transform: translateX(-50%);
 }
+#next {
+    opacity: 0;
+    pointer-events: none;
+}
 #prev {
     width: 30px;
     height: 30px;
