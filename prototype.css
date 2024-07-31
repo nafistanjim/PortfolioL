@@ -986,7 +986,7 @@ header .logo {
 }
 .indicator{
     position: absolute;
-    left: 25%;
+    left: 50%;
     bottom: 50px;
     color: transparent;
     transform: translateX(-50%);
@@ -994,9 +994,9 @@ header .logo {
 }
 .btn{
     display: inline;
-    height: 7px;
-    width: 7px;
-    margin: 7px;
+    height: 5px;
+    width: 5px;
+    margin: 0px;
     border-radius: 10px;
     background: transparent;
     transition: 0.7s;
@@ -1091,7 +1091,7 @@ header .logo {
     background-color: transparent;
     font-weight: 700;
     color: #555555a8;
-    margin-top: -5rem;
+    margin-top: -65%;
 }
 #prev{
     opacity: 1;
