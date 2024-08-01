@@ -778,6 +778,12 @@ body {
         left: -5%;
     }
 /* carousel */
+.carousel {
+    position: relative;
+    height: 640px;
+    overflow: hidden;
+    margin-top: 0px;
+}
 .carousel .list {
     position: absolute;
     width: 1140px;
