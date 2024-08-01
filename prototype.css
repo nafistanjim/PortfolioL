@@ -91,7 +91,7 @@ body {
     position: relative;
     height: 900px;
     overflow: hidden;
-    margin-top: -50px;
+    margin-top: 0px;
 }
 .carousel .list {
     position: absolute;
@@ -778,12 +778,6 @@ body {
         left: -5%;
     }
 /* carousel */
-.carousel {
-    position: relative;
-    height: -340px;
-    overflow: hidden;
-    margin-top: 0px;
-}
 .carousel .list {
     position: absolute;
     width: 1140px;
