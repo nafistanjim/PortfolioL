@@ -733,14 +733,6 @@ body {
 
     .logo {
         position: absolute;
-/*         display: flex;
-        font-weight: bolder;
-        margin-top: 5%;
-        font-size: 125%;
-        margin-left:30%;
-        gap: 15%;
-        cursor: pointer;
- */
         display: flex;
         padding-left: 1rem;
         justify-content: left;
@@ -761,8 +753,8 @@ body {
     }
     .corner {
         position: absolute;
-        top: 0%;
-        left: 79%;
+        top: 2.5%;
+        left: 82%;
         font-family: Poppins;
         line-height: 0.9;
     }
@@ -847,11 +839,11 @@ body {
     display: none;
 }
 .carousel .list .item .introduce .topic {
-    font-size: 165%;
+    font-size: 170%;
     font-weight: 500;
     width: 100%;
     margin-left: -45%;
-    margin-top: -80%;
+    margin-top: -85%;
     rotate: -90deg;
 }
 .carousel .list .item .introduce .des {
