@@ -908,10 +908,11 @@ body {
 .carousel .list .item .detail .service-specifications .cards .card{
     position: relative;
     height: 85px;
-    width: 120%;
+    width: 110%;
+    margin-top: 50px;
     margin-left: -100px;
     background-color: #693EFF;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .carousel .list .item .detail .service-specifications .cards .card::before{
     position: absolute;
