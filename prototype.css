@@ -761,7 +761,7 @@ body {
     }
     .corner {
         position: absolute;
-        top: 5%;
+        top: 0%;
         left: 79%;
         font-family: Poppins;
         line-height: 0.9;
