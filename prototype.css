@@ -863,7 +863,7 @@ body {
     left: 50%; 
     width: 50px;
     line-height: 65%;
-    top: 16%
+    top: 10%
 }
 .carousel .list .item .detail .p{
     color: black;
@@ -879,7 +879,7 @@ body {
     font-size: smaller;
 }
 .carousel .list .item .detail .skill-specifications{
-    margin-top: 50%;
+    margin-top: 80%;
     margin-left: 25%;
 }
 .carousel .list .item .detail .skill-specifications .skilling img{
