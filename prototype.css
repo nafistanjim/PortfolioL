@@ -31,14 +31,26 @@ body {
     --item5-zIndex: 7;
     --item5-opacity: 0;
 } */
-header .logo {
+
+.logo {
     display: flex;
     justify-content: right;
-    margin-right: 3.5rem;
+    margin-right: 5.5rem;
     font-weight: bolder;
     margin-top: 2rem;
     font-size: 30px;
     gap: 2rem;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.logo a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #693EFF;
 }
 .corner {
     position: absolute;
@@ -715,17 +727,28 @@ header .logo {
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 770px) {
-    .body{
+        .body{
         overflow: hidden;
     }
-    header .logo {
+
+    .logo {
+        position: absolute;
         display: flex;
-        padding-left: 1rem;
-        justify-content: left;
         font-weight: bolder;
-        top: 5%;
-        font-size: 20px;
-        gap: 1rem;
+        margin-top: 5%;
+        font-size: 125%;
+        margin-left:30%;
+        gap: 15%;
+        cursor: pointer;
+    }
+    
+    .logo a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    .logo a:hover {
+        color: #693EFF;
     }
     .corner {
         position: absolute;
@@ -815,11 +838,11 @@ header .logo {
     display: none;
 }
 .carousel .list .item .introduce .topic {
-    font-size: 180%;
+    font-size: 165%;
     font-weight: 500;
     width: 100%;
     margin-left: -50%;
-    margin-top: -90%;
+    margin-top: -50%;
     rotate: -90deg;
 }
 .carousel .list .item .introduce .des {
