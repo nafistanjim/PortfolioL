@@ -745,7 +745,7 @@ body {
         padding-left: 1rem;
         justify-content: left;
         font-weight: bolder;
-        top: 5%;
+        margin-top: 5px;
         font-size:127%;
         gap: 1rem;
         cursor: pointer;
