@@ -733,12 +733,21 @@ body {
 
     .logo {
         position: absolute;
-        display: flex;
+/*         display: flex;
         font-weight: bolder;
         margin-top: 5%;
         font-size: 125%;
         margin-left:30%;
         gap: 15%;
+        cursor: pointer;
+ */
+        display: flex;
+        padding-left: 1rem;
+        justify-content: left;
+        font-weight: bolder;
+        top: 5%;
+        font-size:127%;
+        gap: 1rem;
         cursor: pointer;
     }
     
