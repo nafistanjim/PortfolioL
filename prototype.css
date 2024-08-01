@@ -1113,11 +1113,11 @@ body {
 #prev {
     width: 30px;
     height: 30px;
-    border-radius: 500%;
+    border-radius: 20%;
     font-size: large;
     background-color:#693EFF;
     color: white;
-    margin-top: -50%;
+    margin-top: -40%;
     display: flex;
     justify-content: center;
 }
