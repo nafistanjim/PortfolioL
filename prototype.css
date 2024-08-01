@@ -745,7 +745,7 @@ body {
         padding-left: 1rem;
         justify-content: left;
         font-weight: bolder;
-        margin-top: 5px;
+        margin-top: 10px;
         font-size:127%;
         gap: 1rem;
         cursor: pointer;
@@ -850,8 +850,8 @@ body {
     font-size: 165%;
     font-weight: 500;
     width: 100%;
-    margin-left: -50%;
-    margin-top: -50%;
+    margin-left: -45%;
+    margin-top: -80%;
     rotate: -90deg;
 }
 .carousel .list .item .introduce .des {
