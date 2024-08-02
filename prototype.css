@@ -334,6 +334,7 @@ body {
 .user-text h2{
     margin: 50px 5px;
     color: black;
+    margin-top: 0%;
 }
 .indicator{
     position: absolute;
@@ -1008,6 +1009,7 @@ body {
 .user-text h2{
     margin: 50px 5px;
     color: white;
+    margin-top: 7%;
 }
 .indicator{
     position: absolute;
