@@ -1053,8 +1053,9 @@ body {
     justify-content: space-around;
 }
 .homecard .slide img{
-    width: 300px;
+    width: 290px;
     height: 335px;
+    border-radius: 15px;
 }
 .homecard .btnP{
     color: #693EFF;
