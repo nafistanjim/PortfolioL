@@ -1051,26 +1051,17 @@ body {
     display: flex;
     flex-direction: rows;
     justify-content: space-around;
-    margin-top: -10%;
 }
-.homecard img{
-    /* border-radius: 10px;
-    display: block;
-    margin: auto;
-    opacity: 0.5;
-    width: 100%; */
-    width: 800px;
-    height: 400px;
-    border-radius: 16px;
-    opacity: 0.25;
-    z-index: 0;
+.homecard .slide img{
+    width: 300px;
+    height: 335px;
 }
-.homecard .user-text{
-    z-index: 1;
-    color: #eee;
-}
-.homecard .main .container .indicator .btn{
-    z-index: 2;
+.homecard .btnP{
+    color: #693EFF;
+    width: 100px;
+    border: solid 2px #693EFF;
+    border-radius: 10px;
+    cursor: pointer;
 }
 /* Projects */
 .projects .user-text font{
