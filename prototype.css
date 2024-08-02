@@ -387,9 +387,6 @@ body {
     z-index: 1;
     color: #eee;
 }
-.homecard .main .container .indicator .btn{
-    z-index: 2;
-}
 /* Projects */
 .projects img{
     /* border-radius: 10px;
@@ -1072,6 +1069,9 @@ body {
 .homecard .user-text{
     z-index: 1;
     color: #eee;
+}
+.homecard .main .container .indicator .btn{
+    z-index: 2;
 }
 /* Projects */
 .projects .user-text font{
