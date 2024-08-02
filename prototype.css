@@ -381,7 +381,6 @@ body {
     height: 400px;
     border-radius: 16px;
     opacity: 0.25;
-    z-index: 0;
 }
 .homecard .user-text{
     z-index: 1;
