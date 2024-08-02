@@ -345,8 +345,8 @@ body {
 }
 .btn{
     display: inline;
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     margin: 10px;
     border-radius: 15px;
     background: transparent;
@@ -1026,16 +1026,16 @@ body {
 }
 .btn{
     display: inline;
-    height: 5px;
+    height: 15px;
     width: 5px;
-    margin: 0px;
+    margin: 3px;
     border-radius: 10px;
     background: transparent;
     transition: 0.7s;
-    z-index: 3;
+    z-index: 1;
     cursor: pointer;
-    border: solid 3px #693EFF;
-    margin-bottom: 325px;
+    border: solid 2px #693EFF;
+    margin-bottom: 320px;
 }
 .btn:hover {
     background-color: #693EFF;
