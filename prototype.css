@@ -980,7 +980,7 @@ body {
     position: relative;
 }
 .slide img{
-    width: 250px;
+    width: 333px;
     height: 335px;
     border-radius: 15px;
     z-index: 0;
@@ -1003,7 +1003,7 @@ body {
     border: solid 2px #693EFF;
     border-radius: 20px;
     padding: 25px;
-    width: 310px; /* change also in container line 963 */
+    width: 335px; /* change also in container line 963 */
     height: 336px;
     left: 0px;
     top: 42%;
