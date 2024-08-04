@@ -368,7 +368,7 @@ body {
 .edu-info{
     display: flex;
     flex-direction: rows;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: -10%;
 }
 .homecard img{
