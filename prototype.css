@@ -981,7 +981,7 @@ body {
 }
 .slide img{
     width: 333px;
-    height: 335px;
+    height: 330px;
     border-radius: 15px;
     z-index: 0;
 } 
@@ -1003,7 +1003,7 @@ body {
     border: solid 2px #693EFF;
     border-radius: 20px;
     padding: 25px;
-    width: 335px; /* change also in container line 963 */
+    width: 330px; /* change also in container line 963 */
     height: 336px;
     left: 0px;
     top: 42%;
