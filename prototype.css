@@ -980,8 +980,8 @@ body {
     position: relative;
 }
 .slide img{
-    width: 333px;
-    height: 330px;
+    width: 330px;
+    height: 336px;
     border-radius: 15px;
     z-index: 0;
 } 
