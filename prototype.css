@@ -979,7 +979,7 @@ body {
     height: 400px;
     position: relative;
 }
-.image{
+/* .image{
     position: absolute;
     top: 0;
     right: 0;
@@ -990,7 +990,7 @@ body {
     height: 150px;
     width: 250px;
     z-index: 2;
-}
+} */
 .user-text{
     position: absolute;
     background: transparent;
@@ -1007,6 +1007,12 @@ body {
     box-sizing: border-box;
     opacity: 1;
 }
+.slide img{
+    width: 300px;
+    height: 335px;
+    border-radius: 15px;
+    z-index: 0;
+} 
 .user-text p{
     font-size: small;
     line-height: 25px;
@@ -1053,11 +1059,11 @@ body {
     flex-direction: rows;
     justify-content: space-around;
 }
-.homecard .slide img{
+/* .homecard .slide img{
     width: 290px;
     height: 335px;
     border-radius: 15px;
-}
+} */
 .homecard .btnP{
     color: #693EFF;
     width: 100px;
@@ -1080,11 +1086,11 @@ body {
     border: solid 2px #693EFF;
     border-radius: 10px;
 }
-.projects .slide img{
+/* .projects .slide img{
     width: 290px;
     height: 335px;
     border-radius: 15px;
-}
+} */
 /* Riviews */
 .reviewcard .slide .user-text img{
     width: 80px;
@@ -1094,11 +1100,11 @@ body {
     margin-top: 50px;
     opacity: 1;
 }
-.bgc img{
+/* .bgc img{
     width: 300px;
     height: 335px;
     border-radius: 15px;
-}
+} */
 /*---------------------------------------------------------------Home, Projects & Review Section END---------------------------------------------------------------*/
 /* next click */
 .carousel.next .item:nth-child(1) {
