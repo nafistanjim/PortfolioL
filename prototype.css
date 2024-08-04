@@ -959,7 +959,7 @@ body {
 -------------------------------------------------------------------------------maijaga eita */
 .container{
     left: 170px;
-    width: 290px;
+    width: 310px;
     height: 400px;
     position: absolute;
     transform: translate(-40%,50%);
@@ -1003,7 +1003,7 @@ body {
     border: solid 2px #693EFF;
     border-radius: 20px;
     padding: 25px;
-    width: 290px;
+    width: 310px; /* change also in container line 963 */
     height: 336px;
     left: 0px;
     top: 42%;
