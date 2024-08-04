@@ -1058,6 +1058,7 @@ body {
     display: flex;
     flex-direction: rows;
     justify-content: space-around;
+    column-gap: 20px;
 }
 /* .homecard .slide img{
     width: 290px;
