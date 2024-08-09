@@ -1012,6 +1012,7 @@ body {
     color: white;
     box-sizing: border-box;
     opacity: 1;
+    overflow-y: scroll;
 }
 .user-text p{
     font-size: small;
