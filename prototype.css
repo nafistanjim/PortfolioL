@@ -733,7 +733,7 @@ body {
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 770px) {
-        .body{
+    .body{
         overflow: hidden;
     }
 
@@ -1013,20 +1013,20 @@ body {
     box-sizing: border-box;
     opacity: 1;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 /* Last Edit */
-    ::-webkit-scrollbar{
-    width: 5px;
+::-webkit-scrollbar{
+    width: 7px;
 }
 ::-webkit-scrollbar-track{
-    background-color: aliceblue;
-    border-radius: 20px;
+    background-color: transparent;
+    border-left: solid 1px #693EFF;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #693EFF;
+    background: linear-gradient(transparent, #693EFF, transparent);
     border-radius: 20px;
-    opacity: 10px;
 }
 /*     Last Edit */
 .user-text p{
