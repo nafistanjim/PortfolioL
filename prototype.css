@@ -1014,6 +1014,21 @@ body {
     opacity: 1;
     overflow-y: scroll;
 }
+
+/* Last Edit */
+    ::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #693EFF;
+    border-radius: 20px;
+    opacity: 10px;
+}
+/*     Last Edit */
 .user-text p{
     font-size: small;
     line-height: 25px;
