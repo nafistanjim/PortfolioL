@@ -785,6 +785,44 @@ body {
 /*---------------------------------------------------------------Skill Section Start---------------------------------------------------------------*/
 .carousel .list .item .detail .skilltitle {
     position: absolute;
+    font-size: 400%;
+    top: 80%;
+    left: 15%;
+    color: #693EFF;
+    rotate: -90deg;
+    text-align: start;
+} 
+.carousel .list .item .detail .skilldes {
+    position: absolute;
+    top: 25%;
+    line-height: 150%;
+    font-size: 100%;
+    font-weight: 700; 
+    max-width: 100%;
+    display: flex;
+    /* flex-wrap: wrap;
+    column-gap: 100%;
+    row-gap: 70%; */
+    flex-direction: column;
+    row-gap: 40px;
+    margin-left: -50%;
+}
+.carousel .list .item .detail .skilldes .skillset{
+    text-align: left;
+}
+.carousel .list .item .detail .p{
+    color: white;
+    margin-top: 0%;
+}
+.carousel .list .item .detail .skillbar {
+    height: 7px;
+    width: 100%;
+    background-color: #693EFF;
+    border-radius: 5px;
+    margin-top: -15%;
+}
+/* .carousel .list .item .detail .skilltitle {
+    position: absolute;
     font-size: 200%;
     top: 40%;
     left: -20%;
@@ -823,7 +861,7 @@ body {
     width: 25px;
     height: 25px;
     border-bottom: 3px solid #693EFF ;
-}
+} */
 /*---------------------------------------------------------------Skill Section End---------------------------------------------------------------*/
 /*---------------------------------------------------------------Home, Projects & Review Section Start---------------------------------------------------------------*/
 :root {
