@@ -5,33 +5,6 @@ body {
     background-color: #f17815;
     font-family: Poppins;
 }
-/* :root {
-    --item1-transform: translateX(-100%) translateY(-5%) scale(1.5);
-    --item1-filter: blur(30px);
-    --item1-zIndex: 11;
-    --item1-opacity: 0;
-
-    --item2-transform: translateX(0);
-    --item2-filter: blur(0px);
-    --item2-zIndex: 10;
-    --item2-opacity: 1;
-
-    --item3-transform: translate(60%, 10%) scale(0.8);
-    --item3-filter: blur(20px);
-    --item3-zIndex: 9;
-    --item3-opacity: 1;
-
-    --item4-transform: translate(100%, 20%) scale(0.5);
-    --item4-filter: blur(60px);
-    --item4-zIndex: 8;
-    --item4-opacity: 1;
-
-    --item5-transform: translate(130%, 30%) scale(0.3);
-    --item5-filter: blur(80px);
-    --item5-zIndex: 7;
-    --item5-opacity: 0;
-} */
-
 .logo {
     display: flex;
     justify-content: right;
@@ -173,44 +146,43 @@ body {
 .carousel .list .item .detail .skilltitle {
     position: absolute;
     font-size: 600%;
-    top: 40%;
+    top: 50%;
     left: 25%;
     color: #693EFF;
     rotate: -90deg;
-}
+    text-align: start;
+} 
 .carousel .list .item .detail .skilldes {
     position: absolute;
-    top: 5%;
+    top: 25%;
     line-height: 150%;
     font-size: 100%;
-    font-weight: 700;
-    left: 60%;
+    font-weight: 700; 
+    max-width: 100%;
+    display: flex;
+    /* flex-wrap: wrap;
+    column-gap: 100%;
+    row-gap: 70%; */
+    flex-direction: column;
+    row-gap: 40px;
+    margin-left: -50%;
+}
+.carousel .list .item .detail .skilldes .skillset{
+    text-align: left;
 }
 .carousel .list .item .detail .p{
     color: black;
-    margin-top: 48%;
+    margin-top: 0%;
 }
 .carousel .list .item .detail .skillbar {
-    height: 6px;
-    width: 200%;
+    height: 7px;
+    width: 100%;
     background-color: #693EFF;
-    border-radius: 3px;
-    margin-top: -21%;
-}
-.carousel .list .item .detail .skill-specifications{
-    margin-top: -28.5%;
-    margin-left: 52.5%;
-}
-.carousel .list .item .detail .skill-specifications .skilling img{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 0.5%;
-    margin-bottom: 3.5%;
-    width: 7%;
-    border-bottom: 3px solid #693EFF ;
+    border-radius: 5px;
+    margin-top: -15%;
 }
 /*---------------------------------------------------------------Skill Section End---------------------------------------------------------------*/
-/*---------------------------------------------------------------Home, Projects & Review Section Start---------------------------------------------------------------*/
+/*---------------------------------------------------------------Home, Service, Projects & Review Section Start---------------------------------------------------------------*/
 :root {
 .main{
     position: relative;
@@ -401,7 +373,7 @@ body {
     opacity: 0.25;
     z-index: 0;
 }
-/*---------------------------------------------------------------Home, Projects & Review Section END---------------------------------------------------------------*/
+/*---------------------------------------------------------------Home, Service, Projects & Review Section END---------------------------------------------------------------*/
 /* experiment  SeeMore*/
 .carousel .list .item .introduce .seeMore:hover {
     background: black;
@@ -679,9 +651,7 @@ body {
     transform: translate(-100%, -50%) rotate(90deg);
     filter: blur(130px);
 }
-
 @media screen and (max-width: 991px) {
-
     /* ipad, tablets */
     .carousel .list .item {
         width: 90%;
@@ -689,12 +659,10 @@ body {
     .carousel.showDetail .list .item:nth-child(2) .detail .specifications {
         overflow: auto;
     }
-
     .carousel.showDetail .list .item:nth-child(2) .detail .title {
         font-size: 2em;
     }
 }
-
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------F---------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------o---------------------------------------------------------------------------------------------------------------------------------------
@@ -797,27 +765,7 @@ body {
     z-index: 10;
     transform: translateX(0);
 }
-/* .carousel .list .item img {
-    width: 125%;
-    position: absolute;
-    right: 0;
-    top: 15.50%;
-    left: 30%;
-    transform: translateY(-50%);
-    transition: right 1.5s;
-    height: -5000px;
-} */
 .carousel .list .item .introduce {
-/*     opacity: 0;
-    max-width: 373px;
-    margin-left: -10%;
-    max-height: 405px;
-    margin-top: 70%;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(800px);
-    border-radius: 20px;
-    border: 1% solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
     display: none;
 }
 .carousel .list .item .introduce .title {
@@ -947,7 +895,6 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
 }
-
 /* Last Edit */
 ::-webkit-scrollbar{
     width: 7.5px;
@@ -1095,7 +1042,6 @@ body {
      }
 }
 /*------------------------------------------------------------------------------------*/
-
 .arrows {
     position: absolute;
     top: 80.8%;
@@ -1119,5 +1065,4 @@ body {
     display: flex;
     justify-content: center;
 }
-
 }
