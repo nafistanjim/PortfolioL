@@ -969,9 +969,8 @@ body {
 /* Service */
 .service-info{
     display: flex;
-    flex-direction: rows;
+    flex-direction: column;
     justify-content: space-around;
-    margin-top: 25%;
 }
 .service-info i{
     color: #693EFF;
@@ -993,7 +992,7 @@ body {
     z-index: 1;
     color: #eee;
     text-align: center;
-}  
+}
 /* Projects */
 .projects .user-text font{
     font-size: 30px;
