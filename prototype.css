@@ -924,7 +924,7 @@ body {
     bottom: 50px;
     color: transparent;
     transform: translateX(-50%);
-    z-index: 1;
+    z-index: 100;
 }
 .btn{
     display: inline;
