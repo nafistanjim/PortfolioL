@@ -970,13 +970,13 @@ body {
     display: inline;
     height: 15px;
     width: 5px;
-    margin: 3px;
-    border-radius: 10px;
+    margin: 5px;
+    border-radius: 8px;
     background: transparent;
     transition: 0.7s;
     z-index: 1;
     cursor: pointer;
-    border: solid 2px #693EFF;
+    border: solid 3px #693EFF;
     margin-bottom: 320px;
 }
 .btn:hover {
