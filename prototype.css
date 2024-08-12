@@ -815,6 +815,7 @@ body {
 .carousel .list .item .detail .p{
     color: white;
     margin-top: 0%;
+    font-weight: bold;
 }
 .carousel .list .item .detail .skillbar {
     height: 7px;
